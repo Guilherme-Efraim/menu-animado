@@ -25,6 +25,7 @@ body {
     background-color: var(--cor-de-fundo);
     z-index: 5;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
 }
 
 .menu-lateral.ativo {
@@ -75,6 +76,7 @@ body {
     cursor: pointer;
     color: var(--text-color);
     background-color: var(--primary-color);
+    transition: all 0.2s ease;
 }
 
 .botao-menu:hover {
